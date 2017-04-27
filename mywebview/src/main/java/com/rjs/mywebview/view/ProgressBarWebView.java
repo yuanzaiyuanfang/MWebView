@@ -34,7 +34,7 @@ public class ProgressBarWebView extends LinearLayout {
 
     private NumberProgressBar mProgressBar;
     private BridgeWebView mWebView;
-    
+
     public ProgressBarWebView(Context context) {
         super(context);
         init(context, null);
@@ -125,7 +125,7 @@ public class ProgressBarWebView extends LinearLayout {
      * @param url the URL of the resource to load
      */
     public void loadUrl(String url) {
-      loadUrl(url, null);
+        loadUrl(url, null);
     }
 
     /**
@@ -256,4 +256,14 @@ public class ProgressBarWebView extends LinearLayout {
             }
         }
     }
+
+    /**
+     * 获取WebSettings
+     *
+     * @return
+     */
+    public WebSettings getSettings() {
+        return mWebView.getSettings();
+    }
+
 }
