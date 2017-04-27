@@ -28,17 +28,17 @@ Android基于JsBridge封装的高效带加载进度的WebView
 root：
 
     repositories {
-    maven { url "https://jitpack.io" }
-    jcenter()
-      }
+        maven { url "https://jitpack.io" }
+        jcenter()
+    }
 
 Module:
 
-       dependencies {
+    dependencies {
        .....
-       compile 'com.tamic:browse:1.0.0'
+       compile 'com.github.yuanzaiyuanfang:MWebView:1.0.0'
     
-       }
+    }
 
 # Function
   
