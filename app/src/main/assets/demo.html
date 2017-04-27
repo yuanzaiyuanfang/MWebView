@@ -7,45 +7,45 @@
 </head>
 
 <body>
-    <p>
-        <xmp id="show">
-        </xmp>
-    </p>
-    <p>
-        <xmp id="init">
-        </xmp>
-    </p>
-    <p>
-        <input type="text" id="text1" value="username"/>
-    </p>
+<p>
+    <xmp id="show">
+    </xmp>
+</p>
+<p>
+    <xmp id="init">
+    </xmp>
+</p>
+<p>
+    <input type="text" id="text1" value="username"/>
+</p>
 
-    <p>
-        <input type="text" id="text2" value="password"/>
-    </p>
+<p>
+    <input type="text" id="text2" value="password"/>
+</p>
 
-    <p>
-        <input type="button" id="enter1" value="登录（响应Native方法）" onclick="login();"
-        />
-    </p>
+<p>
+    <input type="button" id="enter1" value="登录（响应Native方法）" onclick="login();"
+    />
+</p>
 
-    <p>
-        <input type="button" id="enter" value="发消息给Native" onclick="testClick();"
-        />
-    </p>
-
-
-    <p>
-        <input type="button" id="enter2" value="显示源代码" onclick="testDiv();"/>
-    </p>
+<p>
+    <input type="button" id="enter" value="发消息给Native" onclick="testClick();"
+    />
+</p>
 
 
-    <p>
-        <input type="button" id="CallNative" value="调用native" onclick="onUrl();"/>
-    </p>
+<p>
+    <input type="button" id="enter2" value="显示源代码" onclick="testDiv();"/>
+</p>
 
-    <p>
-        <input type="file" id="open" value="打开文件" onclick="onOpen();"/>
-    </p>
+
+<p>
+    <input type="button" id="CallNative" value="调用native" onclick="onUrl();"/>
+</p>
+
+<p>
+    <input type="file" id="open" value="打开文件" onclick="onOpen();"/>
+</p>
 
 </body>
 
@@ -155,6 +155,7 @@
         console.log('JS responding with', data);
         responseCallback(data);
     });
+
 
 
 

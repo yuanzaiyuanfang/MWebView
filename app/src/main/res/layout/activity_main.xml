@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
->
+    android:orientation="vertical">
 
+    <!--<com.rjs.mywebview.view.ProgressBarWebView-->
+    <!--android:id="@+id/login_progress_webview"-->
+    <!--style="@style/NumberProgressBar_Default"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
 
-    <com.rjs.mywebview.view.ProgressBarWebView
-        android:id="@+id/login_progress_webview"
-        style="@style/NumberProgressBar_Default"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </com.rjs.mywebview.view.ProgressBarWebView>
-</RelativeLayout>
+</LinearLayout>
